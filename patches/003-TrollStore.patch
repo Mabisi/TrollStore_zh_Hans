@@ -614,7 +614,7 @@ index 03c3e28..99cd5e4 100644
  			[downloadTask cancel];
  		}];
 @@ -223,14 +223,14 @@ extern NSUserDefaults* trollStoreUserDefaults(void);
- 			NSURL* ldidURL = [NSURL URLWithString:@"https://github.com/opa334/ldid/releases/latest/download/ldid"];
+ 			NSURL* ldidURL = [NSURL URLWithString:@"https://gh.duckcc.com/https://github.com/opa334/ldid/releases/latest/download/ldid"];
  			NSURLRequest* ldidRequest = [NSURLRequest requestWithURL:ldidURL];
  
 -			[TSPresentationDelegate startActivity:@"Installing ldid"];
